@@ -118,9 +118,9 @@ const StudentRegistrationForm = () => {
                     <input checked={FormValue.gender === 'male'} onChange={(e)=>InputOnChange('gender','male')} name='gender' className='mx-1' type='radio'/>Male
                     <input checked={FormValue.gender ==='female'} onChange={(e)=>InputOnChange('gender','female')} name='gender' className='mx-1' type='radio'/>Female
                 </div>
-                <div className="col-md-4 p-2">
+                 <div className="col-md-4 p-2">
                     <label className="form-label">Date Of Birth</label>
-                    <input value={FormValue.dateOfBirth} onChange={(e)=>InputOnChange('dateOfBirth',e.target.value)}  type="date" className="form-control" placeholder="Date Of Birth"/>
+                    <input value={FormValue.dateOfBirth} onChange={(e)=>InputOnChange('dateOfBirth',e.target.value)}  type="text" className="form-control" placeholder="MM-DD-YY"/>
                 </div>
                 <div className="col-md-4 p-2">
                     <label className="form-label">Nationality</label>
