@@ -4,7 +4,7 @@ const StudentDataSchema=mongoose.Schema(
         firstName:{type:String,require},
         lastName:{type:String},
         gender:{type:String},
-        dateOfBirth:{type:Date },
+        dateOfBirth:{type:String },
         nationality:{type:String},
         address:{type:String},
         email:{type:String},
